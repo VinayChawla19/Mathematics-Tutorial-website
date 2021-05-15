@@ -1,0 +1,84 @@
+#navbar{
+height:70px;
+background:#FF8C00;
+padding:15px;
+margin-left:10px;
+margin-top:5px; 
+}
+
+ ul{
+list-style:none;
+}
+
+#navbar  ul li{
+float:left;
+padding:0 15px   20px;
+height:15px;
+border-right:1px solid #DC143C;
+}
+#navbar ul li:last-child{
+border-right:none;
+}
+
+#navbar   ul li a{
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+color:#1E90FF;
+line-height:1opx;
+transition:font-size 0.1s ease;
+}
+
+#navbar  ul li a:hover, #navbar   ul li a.active{
+font-size:25px;
+font-weight:bold;
+color:#8A2BE2;
+}
+
+header{
+text-align:center;
+color:#1E90FF;
+background:#F0E68C;
+font-size:20px;
+margin-top:5px;
+margin-left:5px;
+}
+h1{
+font-size:30px;
+font-style:italic;
+}
+p{
+font-size:25px;
+}
+.findtutorsnow{
+color:#FF00FF;
+background:linear-gradient(#AFEEEE,#98FB98);
+font-size:20px;
+margin-left:5px;
+margin-top:3px;
+padding-left:5px;
+}
+h3{
+font-size:25px;
+font-style:italic;
+}
+.Experienced {
+color:
+#FF0000;
+background-color:
+#87CEFA;
+font-size:20px;
+padding:4px;
+margin-left:5px;
+margin-bottom:4px;
+}
+ul,li{
+color:#FF0000;
+font-size:20px;
+padding:5px 6px;
+margin:4px 6px;
+}
+body{
+padding:3px 7px;
+background-image:url(images/aaaa.png);
+}

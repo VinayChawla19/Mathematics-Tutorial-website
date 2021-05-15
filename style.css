@@ -1,0 +1,172 @@
+body{
+background:linear-gradient(#F08080,#90EE90);
+background-image:url(images/aaaa.png);
+}
+
+#container{
+width:1050px;
+margin: 0 auto;
+}
+#header{
+height:100px;
+padding:10px 0;
+}
+#title{
+float:left;
+}
+h1 a{
+font-size:50px;
+font-weight:100;
+color:#663399;
+text-decoration:none;
+}
+
+#searchbox{
+float:right;
+background:#DB7093;
+width:400px;
+height:50px;
+padding:20px 20px 0 20px;
+margin-top:15px;
+}
+
+.text{
+float:left;
+width:200px;
+padding:5px;
+font-size:15px;
+color:#FF0000;
+background:white url(images/search.png) right center no-repeat;
+}
+
+
+.submit{
+float:right;
+padding:5px;
+color:#00FF7F;
+font-weight:bold;
+background-color:#D2691E;
+font-size:15px;
+}
+
+.clear{
+clear:both;
+}
+
+#navbar{
+height:70px;
+background:#FF8C00;
+padding:15px;
+}
+
+
+ ul{
+list-style:none;
+}
+
+#navbar  ul li{
+float:left;
+padding:0 15px   20px;
+height:15px;
+border-right:1px solid #DC143C;
+}
+#navbar ul li:last-child{
+border-right:none;
+}
+
+#navbar   ul li a{
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+color:#1E90FF;
+line-height:1opx;
+transition:font-size 0.1s ease;
+}
+
+#navbar  ul li a:hover, #navbar   ul li a.active{
+font-size:25px;
+font-weight:bold;
+color:#8A2BE2;
+}
+
+#introduction{
+background:linear-gradient(#87CEFA, #EEE8AA);
+padding:35px;
+margin:17px 0;
+border-radius:20px;
+}
+
+#introduction h3{
+font-size:45px;
+color:#FF1493;
+font-weight:bold;
+}
+
+#introduction p{
+font-size:30px;
+color:#191970;
+text-align:justify;
+}
+
+.sidebar{
+height:500px;
+width:450px;
+border:1px solid #8B008B;
+border-radius:20px;
+padding:12px 30px;
+}
+.sidebar h3{
+color: #0000CD;
+font-size:30px;
+}
+
+.sidebar ul{
+padding-top:7px;
+}
+
+#leftsidebar ul li{
+padding:6px 0 6px 10px;
+list-style-image:url(images/arrow.png);
+}
+
+#rightsidebar ul li{
+padding:5px 9px 17px;
+list-style-image:url(images/arrow.png);
+
+}
+
+.sidebar ul li a{
+text-decoration:none;
+font-size:30px;
+color:#B22222;
+-o-transition:font-size 0.3s ease;
+-ms-transition:font-size 0.3s ease;
+transition:font-size 0.3 ease;
+padding:9px;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+text-decoration:none;
+color:#008080;
+font-size:25px;
+font-weight:bold;
+padding:6px;
+}
+
+#leftsidebar{
+float:left;
+}
+
+#rightsidebar{
+float:right;
+}
+
+.footer{
+height:60px;
+background-color:#E9967A;
+margin-top:20px;
+font-size:20px;
+border-radius:20px;
+padding:15px 30px;
+color:#228B22;
+}

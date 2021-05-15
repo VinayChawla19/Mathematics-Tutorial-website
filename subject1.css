@@ -1,0 +1,30 @@
+p{
+color:#006400;
+font-size:25px;
+height:auto;
+padding: 5px 10px;
+background-color:#E9967A;
+margin:10px 5px;;
+}
+h1,h2,h3{
+font-style:italic;
+color:#B22222;
+font-size:25px;
+height:15px;
+text-decoration:underline;
+}
+ul,li{
+color:#9370DB;
+background-color:#DCDCDC;
+padding: 8px 10px;
+margin:15px 15px;
+font-size:15px;
+font-style:bold;
+}
+
+body{
+background:linear-gradient( #FF7F50,#6495ED); 
+border:3px solid #DEB887;
+border-width:5px 5px;
+background-image:url(images/aaaa.png);
+}

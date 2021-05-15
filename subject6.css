@@ -1,0 +1,23 @@
+h1{
+color:#DC143C;
+font-size:30px;
+text-decoration:underline;
+font-style:italic;
+}
+p{
+color:#228B22;
+font-size:25px;
+text-decoration:underline;
+font-style:italic;
+}
+ul,li{
+color:#663399;
+font-size:20px;
+}
+body{
+background:linear-gradient(#F4A460,#D8BFD8);
+border:3px solid #DAA520;
+border-width:4px 5px;
+background-image:url(images/aaaa.png);
+
+}

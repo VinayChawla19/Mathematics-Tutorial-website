@@ -1,0 +1,117 @@
+#navbar{
+height:70px;
+background:#FF8C00;
+padding:15px;
+margin-left:10px;
+margin-top:5px; 
+}
+
+ ul{
+list-style:none;
+}
+
+#navbar  ul li{
+float:left;
+padding:0 15px   20px;
+height:15px;
+border-right:1px solid #DC143C;
+}
+#navbar ul li:last-child{
+border-right:none;
+}
+
+#navbar   ul li a{
+text-decoration:none;
+text-transform:uppercase;
+font-size:20px;
+color:#1E90FF;
+line-height:1opx;
+transition:font-size 0.1s ease;
+}
+
+#navbar  ul li a:hover, #navbar   ul li a.active{
+font-size:25px;
+font-weight:bold;
+color:#8A2BE2;
+}
+
+body{
+margin:0;
+padding:0;
+background-size:cover;
+font-family:sans-serif;
+background-image:url(images/aaaa.png);
+}
+.loginBox{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:370px;
+height:430px;
+padding:80px 40px;
+box-sizing:border-box;
+background-color:#90EE90;
+margin-top:55px;
+}
+.user{
+width:100px;
+height:100px;
+border-radius:60%;
+position:absolute;
+top:-50px;
+left:calc(50% - 50px);
+}
+h2{
+margin:0;
+padding:0 0 20px;
+color:#DB7093;
+text-align:center;
+}
+.loginBox p{
+margin:0;
+padding:0;
+font-weight:bold;
+color:#FF0000;
+}
+.loginBox input{
+width:100%;
+margin-bottom:25px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+border:none;
+border-bottom:1px solid  #008000;
+height:45px;
+background:transparent;
+color:#2E8B57;
+font-size:20px;
+}
+::placeholder
+{
+color:#4682B4;
+}
+
+.loginBox input[type="submit"]
+{
+border:none;
+height:40px;
+color:#FF6347;
+font-size:17px;
+background:#DDA0DD;
+cursor:pointer;
+border-radius:25px;
+}
+.loginBox input[type="submit"]:hover
+{
+background:#4169E1;
+color:#FF0000;
+}
+.loginBox a
+{
+font-size:20px;
+font-weight:bold;
+color:#FFA500;
+text-decoration:none;
+}
